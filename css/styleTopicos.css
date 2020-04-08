@@ -61,8 +61,10 @@ img{max-width: 100%;height: 100%;}
 
 
 /*CONTAINER*/
-.texto{width: 90%;margin: 0 auto;margin-top: 5%;}
+.texto{width: 90%;margin: 0 auto;margin-top: 5%;margin-bottom: 5%;}
 .texto p{color: #fff;text-align: justify;}
+.texto h2{color: #fff;}
+.texto h3{color: #fff;font-size: 1.5em;color: blue;}
 
 
 /*RESPONSIVIDADE*/
