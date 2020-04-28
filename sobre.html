@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Sobre</title>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+	<link rel="stylesheet" href="css/styleTopicos.css">
+	<link rel="icon" type="imagem/png" href="img/majora-icon.ico"/>
+	<style>
+		.container{width: 100%;}
+		.textoSobre{padding: 3% 4%;}
+		.textoSobre p{color: #fff;text-align: justify;font-size: 2em;}
+	</style>
+</head>
+<body>
+	<header class="barra">
+		<a href="index.html"><div id="logo" title="Página principal"></div></a>
+		<div class="btn-menu"><i class="fa fa-bars fa-lg"></i></div>
+		<nav class="menu">
+			<a class="btn-close"><i class="fa fa-times"></i></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="arvore.html">Árvore Genealógica</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="container">
+		<div class="textoSobre">
+			<p>A minha intenção na hora de desenvolver este site, é de contar um pouco para vocês, quem é o Vinicius. Quis contar um pouco sobre a minha vida, minha família, meus amigos e algumas das minhas paixões. Sempre gostei de compartilhar meus momentos de alegria com os outros, e acho que isto nos torna um pouco mais humanos.</p>
+		</div>
+	</main>
+
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-migrate-3.1.0.js"></script>
+	<script>
+		$(".btn-menu").click(function(){
+			$(".menu").show();
+		});
+		$(".btn-close").click(function(){
+			$(".menu").hide();
+		});
+	</script>
+</body>
+</html>

@@ -9,30 +9,33 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="imagem/png" href="img/majora-icon.ico"/>
 </head>
 <body>
 	<header class="barra">
 		<a href="index.html"><div id="logo" title="Página principal"></div></a>
-		<div class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></div>
+		<div class="btn-menu"><i class="fa fa-bars fa-lg"></i></div>
 		<nav class="menu">
 			<a class="btn-close"><i class="fa fa-times"></i></a>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Árvore Genealógica</a></li>
-				<li><a href="#">Sobre</a></li>
+				<li><a href="arvore.html">Árvore Genealógica</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<main class="container">
 		<article class="sessao-container">
-			<a href="praia.html"><img src="img/praia.jpg" alt="Imagem de praia" title="Praia"></a>
+			<h2>Praia</h2>
+			<a href="praia.html"><img src="img/praia.jpg" alt="Imagem de praia"></a>
 		</article>
 		<article class="sessao-container">
-			<a href="familia.html"><img src="img/vinicius1.jpg" alt="Imagem Vinicius" title="Família"></a>
+			<h2>Familia</h2>
+			<a href="familia.html"><img src="img/vinicius1.jpg" alt="Imagem Vinicius"></a>
 		</article>
 		<article class="sessao-container">
-			<a href="amigos.html"><img src="img/Amigos/amigos1.jpg" alt="Amigos" title="Amigos"></a>
+			<h2>Amigos</h2>
+			<a href="amigos.html"><img src="img/Amigos/amigos1.jpg" alt="Amigos"></a>
 		</article>
 		<article class="sessao-container">
 			<a href="#"><img src="img/majora.jpg" alt=""></a>
@@ -47,17 +50,18 @@
 
 	<footer class="rodape container">
 		<div class="social-icons">
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-google"></i></a>
-			<a href="#"><i class="fa fa-instagram"></i></a>
-			<a href="#"><i class="fa fa-envelope"></i></a>
+			<a href="https://www.facebook.com/vinicius.ribeiro.9849912" target="_blank"><i class="fa fa-facebook" title="Acesse meu perfil do Facebook"></i></a>
+			<a href="https://twitter.com/raiol27" target="_blank"><i class="fa fa-twitter" title="Acesse meu perfil do Twitter"></i></a>
+			<a href="https://www.instagram.com/vini.raiol/?hl=pt-br" target="_blank"><i class="fa fa-instagram" title="Acesse meu perfil do Instagram"></i></a>
 		</div>
 	</footer>
 
 	<!--JQUERY-->
-	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-migrate-3.1.0.js"></script>
 	<script>
 		$(".btn-menu").click(function(){
 			$(".menu").show();
